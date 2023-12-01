@@ -1,0 +1,22 @@
+function doPost(e) {
+  try {
+    var sheet = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1aHYr4hAe33YhhrfFIE9WmhSTU2cHr360UmX1dJr07xA/edit#gid=0').getActiveSheet();
+    
+    // Get form data from the request
+    var formData = e.parameter;
+    
+    // Extract the data you want to store
+    var name = formData.Name;
+    var email = formData.Email;
+    var password = formData.Password;
+
+    // Append data to the spreadsheet
+    sheet.appendRow([name, email, password]);
+
+    // Return success message
+    return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
+  } catch (error) {
+    // Return error message
+    return ContentService.createTextOutput("Error: " + error.message).setMimeType(ContentService.MimeType.TEXT);
+  }
+}

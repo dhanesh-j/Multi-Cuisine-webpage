@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');  /*here i use this line for fonts*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;/* here i mension font family*/
+
+}
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;/* its body of our web sit  */
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.493),rgba(0,0,0,0.75)), url('https://wallpapers.com/images/hd/food-4k-3gsi5u6kjma5zkj0.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+
+}
+header {
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.top-left-logo {
+    
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures that image does not affect other elements */
+    margin: 20px auto; /* Centers the image horizontally with top and bottom margin */
+    border: 2px solid #000; /* Example border styling */
+    border-radius: 10px; /* Example border radius */
+    box-shadow: 0 0 10px rgba(170, 167, 167, 0.5); /* Example box shadow */
+    position: absolute;
+    top: 1;
+    left: 90;
+    width: 100px;
+}
+.logo{
+    font-size:2em;
+    color:#fcfcfc;
+    user-select:none;/*.logo is use to edit the login button position and colour  */
+}
+
+.navigation a {
+    position: relative;/* here i use to arrange the button in top right  */
+    font-size: 1.1em;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background:#fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform:scaleX(0);
+    transition: transform .3s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left ;
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:#fff ;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover{
+    background:#fff;
+    color:#162938;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; /* Center the text */
+}
+
+.Title {
+    position: relative;
+    width: 80%;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 45px;
+    text-align: left;
+}
+
+
+footer {
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+    background: rgba(192, 192, 192, 0.571);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+}
+.custom-hr {
+    position: absolute;
+    top: 50%;
+    left: 23;
+    transform: translateY(-50%);
+    width: calc(70% - 75px); /* Adjust the value to control the length */
+    border: none;
+    border-top: 2px solid #f9f7f7; /* Change the color as needed */
+}
