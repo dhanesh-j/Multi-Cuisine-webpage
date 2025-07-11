@@ -1,4 +1,4 @@
-# Cloud Project - Multi-Cuisine Food Website
+# Multi-Cuisine Food Website
 
 ## Project Overview
 
