@@ -6,17 +6,29 @@ This project is a **multi-page web application** designed to showcase a variety 
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [Project Overview](#project-overview)  
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Project Structure](#project-structure)  
-- [Detailed Functionality](#detailed-functionality)  
-- [Setup and Usage](#setup-and-usage)  
-- [Challenges Faced](#challenges-faced)  
-- [Future Improvements](#future-improvements)  
-- [Author](#author)  
+- [🚀 Overview](#-overview)
+- [🧠 How the Model Works](#-how-the-model-works)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Installation](#️-installation)
+
+### 🎯 Recreate the Model (Step-by-Step)
+- [🔹 Step 1: Preprocess the Dataset](#-step-1-preprocess-the-dataset)
+- [🔹 Step 2: Train the Classifier](#-step-2-train-the-classifier)
+- [🔹 Step 3: Run Inference](#-step-3-run-inference)
+
+### 🧪 Sample Output
+- [📊 Classification Report](#1-classification-report)
+- [🔍 Prediction Output](#2-prediction-output)
+- [📉 Confusion Matrix](#3-confusion-matrix)
+- [📈 Wave-Output](#4-wave-output)
+
+- [🔍 Model Details](#-model-details)
+- [🌟 Features](#-features)
+- [📦 Requirements](#-requirements)
+- [💡 Future Ideas](#-future-ideas)
+- [👨‍💻 Author](#-author)
 
 ---
 
