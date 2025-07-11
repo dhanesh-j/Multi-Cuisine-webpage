@@ -96,10 +96,6 @@ This project is a **multi-page web application** designed to showcase a variety 
 - **Accessibility:** Improve accessibility features to support users with disabilities.
 
 ---
-
-
----
-
 Thank you for exploring this project!  
 Feel free to contribute or provide feedback.
 
