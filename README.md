@@ -39,25 +39,6 @@ This project is a **multi-page web application** designed to showcase a variety 
 | JavaScript | Adding interactivity, form validation, and dynamic behavior |
 
 ---
-
-## Project Structure
-cloud-project/
-│
-├── index.html # Homepage with navigation to cuisine pages
-├── Biryani.html # Biryani cuisine page
-├── Chinese.html # Chinese cuisine page
-├── Indian.html # Indian cuisine page
-├── Italian.html # Italian cuisine page
-├── login.html # Login form page
-│
-├── Biryani.css # Styles specific to Biryani page
-├── Chinese.css # Styles specific to Chinese page
-├── Indian.css # Styles specific to Indian page
-├── Italian.css # Styles specific to Italian page
-├── loginstyle.css # Styles for login page
-│
-└── loginscript.js # JavaScript for login validation and interactivity
-
 ## Detailed Functionality
 
 ### Homepage (`index.html`)
@@ -84,8 +65,7 @@ cloud-project/
 ## Setup and Usage
 
 1. **Clone the repository:**
-
-git clone https://github.com/dhanesh-j/cloud-project.git
+     git clone https://github.com/dhanesh-j/cloud-project.git
 
 
 2. **Open the project folder** in your preferred code editor.
@@ -117,17 +97,6 @@ git clone https://github.com/dhanesh-j/cloud-project.git
 
 ---
 
-## Author
-
-**Dhanesh J**  
-Email: [your-email@example.com] (optional)  
-GitHub: [https://github.com/dhanesh-j](https://github.com/dhanesh-j)
-
----
-
-## License
-
-This project is for educational purposes. Feel free to use and modify it for learning and development.
 
 ---
 
