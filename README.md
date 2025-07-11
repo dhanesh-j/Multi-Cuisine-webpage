@@ -65,7 +65,7 @@ This project is a **multi-page web application** designed to showcase a variety 
 ## Setup and Usage
 
 1. **Clone the repository:**
-     git clone https://github.com/dhanesh-j/cloud-project.git
+     git clone https://github.com/dhanesh-j/Multi-Cuisine-webpage.git
 
 
 2. **Open the project folder** in your preferred code editor.
