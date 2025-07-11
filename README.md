@@ -5,30 +5,19 @@
 This project is a **multi-page web application** designed to showcase a variety of cuisines including Biryani, Chinese, Indian, and Italian dishes. Developed as a college mini project, it demonstrates fundamental front-end web development skills using **HTML**, **CSS**, and **JavaScript**. The application provides a simple yet interactive user experience, allowing users to browse different cuisine categories, view menu items, and simulate user login functionality.
 
 ---
-
 ## 📚 Table of Contents
 
-- [🚀 Overview](#-overview)
-- [🧠 How the Model Works](#-how-the-model-works)
-- [📁 Project Structure](#-project-structure)
-- [🛠️ Installation](#️-installation)
-
-### 🎯 Recreate the Model (Step-by-Step)
-- [🔹 Step 1: Preprocess the Dataset](#-step-1-preprocess-the-dataset)
-- [🔹 Step 2: Train the Classifier](#-step-2-train-the-classifier)
-- [🔹 Step 3: Run Inference](#-step-3-run-inference)
-
-### 🧪 Sample Output
-- [📊 Classification Report](#1-classification-report)
-- [🔍 Prediction Output](#2-prediction-output)
-- [📉 Confusion Matrix](#3-confusion-matrix)
-- [📈 Wave-Output](#4-wave-output)
-
-- [🔍 Model Details](#-model-details)
-- [🌟 Features](#-features)
-- [📦 Requirements](#-requirements)
-- [💡 Future Ideas](#-future-ideas)
-- [👨‍💻 Author](#-author)
+- [📌 Project Overview](#project-overview)
+- [✨ Features](#features)
+- [🛠️ Technologies Used](#technologies-used)
+- [📋 Detailed Functionality](#detailed-functionality)
+  - [🏠 Homepage (`index.html`)](#homepage-indexhtml)
+  - [🍽️ Cuisine Pages](#cuisine-pages-biryanihtml-chinesehtml-indianhtml-italianhtml)
+  - [🔐 Login Page (`login.html`)](#login-page-loginhtml)
+  - [📜 JavaScript (`loginscript.js`)](#javascript-loginscriptjs)
+- [⚙️ Setup and Usage](#setup-and-usage)
+- [🐞 Challenges Faced](#challenges-faced)
+- [🚀 Future Improvements](#future-improvements)
 
 ---
 
